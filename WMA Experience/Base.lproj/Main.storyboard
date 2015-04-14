@@ -2,6 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,7 +18,66 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3e-or-BNK">
+                                <rect key="frame" x="32" y="208" width="196" height="70"/>
+                                <state key="normal" title="Sports" image="TitansSchedButton2.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DW4-jP-EwB">
+                                <rect key="frame" x="410" y="208" width="62" height="69"/>
+                                <state key="normal" title="Calendar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9S1-04-87A">
+                                <rect key="frame" x="426" y="314" width="30" height="30"/>
+                                <state key="normal" title="Info">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="athletics_splash_banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="B8A-ke-dRt">
+                                <rect key="frame" x="0.0" y="-16" width="600" height="187"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" placeholder="Search..." translatesAutoresizingMaskIntoConstraints="NO" id="le8-BD-NsU">
+                                <rect key="frame" x="0.0" y="155" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ue6-iH-yzY"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwG-XB-dFp">
+                                <rect key="frame" x="99" y="314" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="9h0-dj-pfu"/>
+                                </constraints>
+                                <state key="normal" title="Students">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DW4-jP-EwB" secondAttribute="trailing" constant="128" id="2ZX-7r-p2P"/>
+                            <constraint firstItem="o3e-or-BNK" firstAttribute="centerX" secondItem="WwG-XB-dFp" secondAttribute="centerX" id="7pR-kL-k3A"/>
+                            <constraint firstItem="le8-BD-NsU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8aw-5E-lPG"/>
+                            <constraint firstItem="B8A-ke-dRt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-16" id="9BF-6l-yfq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WwG-XB-dFp" secondAttribute="bottom" constant="256" id="9Qr-Ue-h7j"/>
+                            <constraint firstItem="WwG-XB-dFp" firstAttribute="top" secondItem="o3e-or-BNK" secondAttribute="bottom" constant="36" id="AUF-Ol-HJ5"/>
+                            <constraint firstItem="9S1-04-87A" firstAttribute="top" secondItem="DW4-jP-EwB" secondAttribute="bottom" constant="37" id="CW1-hK-3VN"/>
+                            <constraint firstItem="WwG-XB-dFp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="Kvy-vk-ZgN"/>
+                            <constraint firstItem="o3e-or-BNK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="XRK-XX-hWe"/>
+                            <constraint firstItem="le8-BD-NsU" firstAttribute="trailing" secondItem="B8A-ke-dRt" secondAttribute="trailing" id="eC5-uh-t56"/>
+                            <constraint firstItem="9S1-04-87A" firstAttribute="baseline" secondItem="WwG-XB-dFp" secondAttribute="firstBaseline" id="fFd-xO-TsU"/>
+                            <constraint firstItem="le8-BD-NsU" firstAttribute="leading" secondItem="B8A-ke-dRt" secondAttribute="leading" id="l6Y-yt-aHJ"/>
+                            <constraint firstItem="DW4-jP-EwB" firstAttribute="centerX" secondItem="9S1-04-87A" secondAttribute="centerX" id="qMg-ff-Lri"/>
+                            <constraint firstItem="o3e-or-BNK" firstAttribute="top" secondItem="le8-BD-NsU" secondAttribute="bottom" constant="9" id="qjF-ge-hVd"/>
+                            <constraint firstAttribute="trailing" secondItem="le8-BD-NsU" secondAttribute="trailing" id="rNu-js-sMb"/>
+                            <constraint firstItem="le8-BD-NsU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="135" id="y9I-9p-c0q"/>
+                            <constraint firstItem="o3e-or-BNK" firstAttribute="top" secondItem="DW4-jP-EwB" secondAttribute="top" id="zxz-mn-hNe"/>
+                            <constraint firstItem="DW4-jP-EwB" firstAttribute="top" secondItem="B8A-ke-dRt" secondAttribute="bottom" constant="37" id="zzZ-HM-FAm"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -33,7 +95,20 @@
                     <view key="view" contentMode="scaleToFill" id="acW-J9-4QM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfB-nv-knr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="UqL-t3-8Yt"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xfB-nv-knr" firstAttribute="leading" secondItem="acW-J9-4QM" secondAttribute="leading" id="gYI-ci-ye3"/>
+                            <constraint firstItem="xfB-nv-knr" firstAttribute="top" secondItem="acW-J9-4QM" secondAttribute="top" id="p9q-qQ-xBG"/>
+                            <constraint firstAttribute="trailing" secondItem="xfB-nv-knr" secondAttribute="trailing" id="qEQ-mM-pjE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nvg-tM-Ook" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -51,7 +126,20 @@
                     <view key="view" contentMode="scaleToFill" id="eXa-KH-f14">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7zC-LW-24N">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="sHp-rc-aGb"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7zC-LW-24N" firstAttribute="leading" secondItem="eXa-KH-f14" secondAttribute="leading" id="7S6-Ua-Ba1"/>
+                            <constraint firstItem="7zC-LW-24N" firstAttribute="top" secondItem="eXa-KH-f14" secondAttribute="top" id="CEF-RR-UYE"/>
+                            <constraint firstAttribute="trailing" secondItem="7zC-LW-24N" secondAttribute="trailing" id="rEi-I6-x0d"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NgO-Gd-b87" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -69,7 +157,20 @@
                     <view key="view" contentMode="scaleToFill" id="XoA-Ej-8HV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RZ8-dl-05I">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="a0V-U6-2db"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RZ8-dl-05I" firstAttribute="leading" secondItem="XoA-Ej-8HV" secondAttribute="leading" id="YiG-EC-75B"/>
+                            <constraint firstItem="RZ8-dl-05I" firstAttribute="top" secondItem="XoA-Ej-8HV" secondAttribute="top" id="aTJ-kE-bLf"/>
+                            <constraint firstAttribute="trailing" secondItem="RZ8-dl-05I" secondAttribute="trailing" id="p4i-mQ-FRI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Ju-mc-ZWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -87,7 +188,20 @@
                     <view key="view" contentMode="scaleToFill" id="gnO-7h-Tg5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLL-3C-CCn">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="0wg-JU-NVy"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mLL-3C-CCn" secondAttribute="trailing" id="9s6-7P-EUp"/>
+                            <constraint firstItem="mLL-3C-CCn" firstAttribute="leading" secondItem="gnO-7h-Tg5" secondAttribute="leading" id="Ckc-8Y-pBp"/>
+                            <constraint firstItem="mLL-3C-CCn" firstAttribute="top" secondItem="gnO-7h-Tg5" secondAttribute="top" id="DcB-0t-EQh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jmv-rl-lxS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -95,4 +209,8 @@
             <point key="canvasLocation" x="1204" y="483"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TitansSchedButton2.jpg" width="262" height="89"/>
+        <image name="athletics_splash_banner.jpg" width="969" height="158"/>
+    </resources>
 </document>

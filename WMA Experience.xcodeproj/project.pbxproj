@@ -13,6 +13,9 @@
 		FCC9C9241AD88A0E0063A93D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC9C9231AD88A0E0063A93D /* Images.xcassets */; };
 		FCC9C9271AD88A0E0063A93D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC9C9251AD88A0E0063A93D /* LaunchScreen.xib */; };
 		FCC9C9331AD88A0E0063A93D /* WMA_ExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9C9321AD88A0E0063A93D /* WMA_ExperienceTests.swift */; };
+		FCDF8AB01ADD6686006BDDE6 /* Wilbraham-Monson.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */; };
+		FCDF8AB21ADD67D8006BDDE6 /* athletics_splash_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */; };
+		FCDF8AB41ADD697C006BDDE6 /* TitansSchedButton2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		FCC9C92C1AD88A0E0063A93D /* WMA ExperienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WMA ExperienceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC9C9311AD88A0E0063A93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC9C9321AD88A0E0063A93D /* WMA_ExperienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMA_ExperienceTests.swift; sourceTree = "<group>"; };
+		FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Wilbraham-Monson.gif"; sourceTree = "<group>"; };
+		FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = athletics_splash_banner.jpg; sourceTree = "<group>"; };
+		FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TitansSchedButton2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		FCC9C91A1AD88A0E0063A93D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */,
+				FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */,
+				FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */,
 				FCC9C91B1AD88A0E0063A93D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +203,9 @@
 			files = (
 				FCC9C9221AD88A0E0063A93D /* Main.storyboard in Resources */,
 				FCC9C9271AD88A0E0063A93D /* LaunchScreen.xib in Resources */,
+				FCDF8AB21ADD67D8006BDDE6 /* athletics_splash_banner.jpg in Resources */,
+				FCDF8AB41ADD697C006BDDE6 /* TitansSchedButton2.jpg in Resources */,
+				FCDF8AB01ADD6686006BDDE6 /* Wilbraham-Monson.gif in Resources */,
 				FCC9C9241AD88A0E0063A93D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +423,7 @@
 				FCC9C9381AD88A0E0063A93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCC9C9391AD88A0E0063A93D /* Build configuration list for PBXNativeTarget "WMA ExperienceTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				FCC9C93B1AD88A0E0063A93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
