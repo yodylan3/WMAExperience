@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7CDD1E1ADEA83E00FFB3FE /* GlobeG.gif in Resources */ = {isa = PBXBuildFile; fileRef = FC7CDD1D1ADEA83E00FFB3FE /* GlobeG.gif */; };
+		FC7CDD231ADF3DF800FFB3FE /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7CDD201ADF3DF800FFB3FE /* TwitterKit.framework */; };
+		FC7CDD241ADF3DF800FFB3FE /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC7CDD211ADF3DF800FFB3FE /* TwitterKitResources.bundle */; };
+		FC7CDD251ADF3DF800FFB3FE /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7CDD221ADF3DF800FFB3FE /* Fabric.framework */; };
+		FC7CDD271ADF3EDE00FFB3FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7CDD261ADF3EDE00FFB3FE /* HomeViewController.swift */; };
+		FC7CDD2D1ADF44D300FFB3FE /* TimelineTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7CDD2C1ADF44D300FFB3FE /* TimelineTableController.swift */; };
 		FCC9C91D1AD88A0E0063A93D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9C91C1AD88A0E0063A93D /* AppDelegate.swift */; };
 		FCC9C91F1AD88A0E0063A93D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9C91E1AD88A0E0063A93D /* ViewController.swift */; };
 		FCC9C9221AD88A0E0063A93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC9C9201AD88A0E0063A93D /* Main.storyboard */; };
 		FCC9C9241AD88A0E0063A93D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC9C9231AD88A0E0063A93D /* Images.xcassets */; };
 		FCC9C9271AD88A0E0063A93D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC9C9251AD88A0E0063A93D /* LaunchScreen.xib */; };
 		FCC9C9331AD88A0E0063A93D /* WMA_ExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9C9321AD88A0E0063A93D /* WMA_ExperienceTests.swift */; };
+		FCD9C6BF1ADDD1E400C44911 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9C6BE1ADDD1E400C44911 /* NavViewController.swift */; };
 		FCDF8AB01ADD6686006BDDE6 /* Wilbraham-Monson.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */; };
 		FCDF8AB21ADD67D8006BDDE6 /* athletics_splash_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */; };
 		FCDF8AB41ADD697C006BDDE6 /* TitansSchedButton2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */; };
@@ -29,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC7CDD1D1ADEA83E00FFB3FE /* GlobeG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GlobeG.gif; sourceTree = "<group>"; };
+		FC7CDD201ADF3DF800FFB3FE /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		FC7CDD211ADF3DF800FFB3FE /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		FC7CDD221ADF3DF800FFB3FE /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		FC7CDD261ADF3EDE00FFB3FE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC7CDD2C1ADF44D300FFB3FE /* TimelineTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableController.swift; sourceTree = "<group>"; };
 		FCC9C9171AD88A0E0063A93D /* WMA Experience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WMA Experience.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC9C91B1AD88A0E0063A93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC9C91C1AD88A0E0063A93D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +52,7 @@
 		FCC9C92C1AD88A0E0063A93D /* WMA ExperienceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WMA ExperienceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC9C9311AD88A0E0063A93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC9C9321AD88A0E0063A93D /* WMA_ExperienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMA_ExperienceTests.swift; sourceTree = "<group>"; };
+		FCD9C6BE1ADDD1E400C44911 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Wilbraham-Monson.gif"; sourceTree = "<group>"; };
 		FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = athletics_splash_banner.jpg; sourceTree = "<group>"; };
 		FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TitansSchedButton2.jpg; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7CDD231ADF3DF800FFB3FE /* TwitterKit.framework in Frameworks */,
+				FC7CDD251ADF3DF800FFB3FE /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,9 @@
 		FCC9C90E1AD88A0E0063A93D = {
 			isa = PBXGroup;
 			children = (
+				FC7CDD201ADF3DF800FFB3FE /* TwitterKit.framework */,
+				FC7CDD211ADF3DF800FFB3FE /* TwitterKitResources.bundle */,
+				FC7CDD221ADF3DF800FFB3FE /* Fabric.framework */,
 				FCC9C9191AD88A0E0063A93D /* WMA Experience */,
 				FCC9C92F1AD88A0E0063A93D /* WMA ExperienceTests */,
 				FCC9C9181AD88A0E0063A93D /* Products */,
@@ -86,6 +105,9 @@
 				FCC9C91C1AD88A0E0063A93D /* AppDelegate.swift */,
 				FCC9C91E1AD88A0E0063A93D /* ViewController.swift */,
 				FCC9C9201AD88A0E0063A93D /* Main.storyboard */,
+				FC7CDD2C1ADF44D300FFB3FE /* TimelineTableController.swift */,
+				FC7CDD261ADF3EDE00FFB3FE /* HomeViewController.swift */,
+				FCD9C6BE1ADDD1E400C44911 /* NavViewController.swift */,
 				FCC9C9231AD88A0E0063A93D /* Images.xcassets */,
 				FCC9C9251AD88A0E0063A93D /* LaunchScreen.xib */,
 				FCC9C91A1AD88A0E0063A93D /* Supporting Files */,
@@ -96,6 +118,7 @@
 		FCC9C91A1AD88A0E0063A93D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC7CDD1D1ADEA83E00FFB3FE /* GlobeG.gif */,
 				FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */,
 				FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */,
 				FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */,
@@ -131,6 +154,7 @@
 				FCC9C9131AD88A0E0063A93D /* Sources */,
 				FCC9C9141AD88A0E0063A93D /* Frameworks */,
 				FCC9C9151AD88A0E0063A93D /* Resources */,
+				FC7CDD1F1ADF3DC700FFB3FE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -201,8 +225,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7CDD241ADF3DF800FFB3FE /* TwitterKitResources.bundle in Resources */,
 				FCC9C9221AD88A0E0063A93D /* Main.storyboard in Resources */,
 				FCC9C9271AD88A0E0063A93D /* LaunchScreen.xib in Resources */,
+				FC7CDD1E1ADEA83E00FFB3FE /* GlobeG.gif in Resources */,
 				FCDF8AB21ADD67D8006BDDE6 /* athletics_splash_banner.jpg in Resources */,
 				FCDF8AB41ADD697C006BDDE6 /* TitansSchedButton2.jpg in Resources */,
 				FCDF8AB01ADD6686006BDDE6 /* Wilbraham-Monson.gif in Resources */,
@@ -219,13 +245,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FC7CDD1F1ADF3DC700FFB3FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 47bb7b5b8e2ce0be3cfe28b03bc7d9472823f232 ba23b9139a4e052229ab1818b7e671fa843df65cfc237442d255231138da63a1";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCC9C9131AD88A0E0063A93D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FCC9C91F1AD88A0E0063A93D /* ViewController.swift in Sources */,
+				FC7CDD2D1ADF44D300FFB3FE /* TimelineTableController.swift in Sources */,
+				FCD9C6BF1ADDD1E400C44911 /* NavViewController.swift in Sources */,
 				FCC9C91D1AD88A0E0063A93D /* AppDelegate.swift in Sources */,
+				FC7CDD271ADF3EDE00FFB3FE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +399,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "WMA Experience/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,6 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "WMA Experience/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
