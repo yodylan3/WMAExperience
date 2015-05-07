@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC7CDD1E1ADEA83E00FFB3FE /* GlobeG.gif in Resources */ = {isa = PBXBuildFile; fileRef = FC7CDD1D1ADEA83E00FFB3FE /* GlobeG.gif */; };
 		FC7CDD231ADF3DF800FFB3FE /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7CDD201ADF3DF800FFB3FE /* TwitterKit.framework */; };
 		FC7CDD241ADF3DF800FFB3FE /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC7CDD211ADF3DF800FFB3FE /* TwitterKitResources.bundle */; };
 		FC7CDD251ADF3DF800FFB3FE /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7CDD221ADF3DF800FFB3FE /* Fabric.framework */; };
@@ -20,9 +19,6 @@
 		FCC9C9271AD88A0E0063A93D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC9C9251AD88A0E0063A93D /* LaunchScreen.xib */; };
 		FCC9C9331AD88A0E0063A93D /* WMA_ExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9C9321AD88A0E0063A93D /* WMA_ExperienceTests.swift */; };
 		FCD9C6BF1ADDD1E400C44911 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9C6BE1ADDD1E400C44911 /* NavViewController.swift */; };
-		FCDF8AB01ADD6686006BDDE6 /* Wilbraham-Monson.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */; };
-		FCDF8AB21ADD67D8006BDDE6 /* athletics_splash_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */; };
-		FCDF8AB41ADD697C006BDDE6 /* TitansSchedButton2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC7CDD1D1ADEA83E00FFB3FE /* GlobeG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GlobeG.gif; sourceTree = "<group>"; };
 		FC7CDD201ADF3DF800FFB3FE /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		FC7CDD211ADF3DF800FFB3FE /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		FC7CDD221ADF3DF800FFB3FE /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
@@ -53,9 +48,6 @@
 		FCC9C9311AD88A0E0063A93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC9C9321AD88A0E0063A93D /* WMA_ExperienceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMA_ExperienceTests.swift; sourceTree = "<group>"; };
 		FCD9C6BE1ADDD1E400C44911 /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
-		FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Wilbraham-Monson.gif"; sourceTree = "<group>"; };
-		FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = athletics_splash_banner.jpg; sourceTree = "<group>"; };
-		FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TitansSchedButton2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +110,6 @@
 		FCC9C91A1AD88A0E0063A93D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC7CDD1D1ADEA83E00FFB3FE /* GlobeG.gif */,
-				FCDF8AB31ADD697C006BDDE6 /* TitansSchedButton2.jpg */,
-				FCDF8AB11ADD67D8006BDDE6 /* athletics_splash_banner.jpg */,
-				FCDF8AAF1ADD6686006BDDE6 /* Wilbraham-Monson.gif */,
 				FCC9C91B1AD88A0E0063A93D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -228,10 +216,6 @@
 				FC7CDD241ADF3DF800FFB3FE /* TwitterKitResources.bundle in Resources */,
 				FCC9C9221AD88A0E0063A93D /* Main.storyboard in Resources */,
 				FCC9C9271AD88A0E0063A93D /* LaunchScreen.xib in Resources */,
-				FC7CDD1E1ADEA83E00FFB3FE /* GlobeG.gif in Resources */,
-				FCDF8AB21ADD67D8006BDDE6 /* athletics_splash_banner.jpg in Resources */,
-				FCDF8AB41ADD697C006BDDE6 /* TitansSchedButton2.jpg in Resources */,
-				FCDF8AB01ADD6686006BDDE6 /* Wilbraham-Monson.gif in Resources */,
 				FCC9C9241AD88A0E0063A93D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

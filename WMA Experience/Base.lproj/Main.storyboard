@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="08T-1w-fi5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="08T-1w-fi5">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -17,9 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="athletics_splash_banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="B8A-ke-dRt">
-                                <rect key="frame" x="0.0" y="64" width="600" height="158"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="md3-wb-pGh">
                                 <rect key="frame" x="493" y="360" width="46" height="30"/>
                                 <state key="normal" title="Button">
@@ -36,10 +33,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="dRa-xc-Myq" firstAttribute="leading" secondItem="md3-wb-pGh" secondAttribute="leading" id="4vV-WB-5L0"/>
-                            <constraint firstItem="B8A-ke-dRt" firstAttribute="top" secondItem="Vp2-oM-2di" secondAttribute="bottom" id="8OJ-pb-UNd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dRa-xc-Myq" secondAttribute="trailing" constant="45" id="OH5-X5-o8o"/>
-                            <constraint firstAttribute="trailing" secondItem="B8A-ke-dRt" secondAttribute="trailing" id="qzi-JL-tKb"/>
-                            <constraint firstItem="B8A-ke-dRt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rz7-zh-VWm"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="JwZ-vc-neV"/>
@@ -244,7 +238,4 @@
             <point key="canvasLocation" x="-504" y="3514"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="athletics_splash_banner.jpg" width="969" height="158"/>
-    </resources>
 </document>

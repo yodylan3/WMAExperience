@@ -12,7 +12,7 @@ import TwitterKit
 class UserTimelineViewController: TWTRTimelineViewController {
     convenience init() {
         let client = Twitter.sharedInstance().APIClient
-        let dataSource = TWTRUserTimelineDataSource(screenName: "WilbrahamMonson", APIClient: client)
+        let dataSource = TWTRUserTimelineDataSource(screenName: "", APIClient: client)
         
         self.init(dataSource: dataSource)
     }
